@@ -142,4 +142,4 @@ Interact with the API using tools like `curl` or Postman. Example requests:
 
 ### Create a new user
 ```bash
-curl -X POST http://localhost:8000/api/users/ -H "Content-Type: application/json" -d '{"first_name": "John", "last_name": "Doe", "document_id": "12345678", "age": 30, "email": "john.doe@example.com", "password": "securepassword"}'
+curl -X POST http://localhost:8000/api/v1/users/ -H "Content-Type: application/json" -d '{"first_name": "John", "last_name": "Doe", "document_id": "12345678", "age": 30, "email": "john.doe@example.com", "password": "securepassword"}'
