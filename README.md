@@ -116,16 +116,16 @@ The database structure is defined using Django models. Here's an overview:
 
 Here are some key API endpoints provided by this Django API:
 
-- `POST /api/users/` - Create a new user
-- `GET /api/users/{id}/` - Retrieve a user by ID
-- `POST /api/products/` - Create a new product
-- `GET /api/products/` - Retrieve all products
-- `POST /api/carts/` - Create a new shopping cart
-- `POST /api/carts/{cart_id}/items/` - Add an item to a cart
-- `POST /api/sales/` - Create a new sale
-- `GET /api/sales/{id}/` - Retrieve a sale by ID
-- `POST /api/orders/` - Create a new order
-- `GET /api/orders/{id}/` - Retrieve an order by ID
+- `POST /api/v1/users/` - Create a new user
+- `GET /api/v1/users/{id}/` - Retrieve a user by ID
+- `POST /api/v1/products/` - Create a new product
+- `GET /api/v1/products/` - Retrieve all products
+- `POST /api/v1/carts/` - Create a new shopping cart
+- `POST /api/v1/carts/{cart_id}/items/` - Add an item to a cart
+- `POST /api/v1/sales/` - Create a new sale
+- `GET /api/v1/sales/{id}/` - Retrieve a sale by ID
+- `POST /api/v1/orders/` - Create a new order
+- `GET /api/v1/orders/{id}/` - Retrieve an order by ID
 
 ## Functionalities
 
