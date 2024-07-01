@@ -49,7 +49,7 @@ To install and run the Django API backend locally, follow these steps:
 
 The database structure is defined using Django models. Here's an overview:
 
-### Entity-Relationship Diagram
+### DB Diagram
 
 ![ERD](mer.svg)
 ### User
