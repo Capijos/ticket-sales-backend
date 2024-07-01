@@ -9,16 +9,17 @@ from rest_framework import permissions
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="Tu API REST Documentación",
+        title="Your REST API Documentation",
         default_version="v1",
-        description="Documentación de tu API REST con Swagger",
-        terms_of_service="https://www.example.com/policies/terms/",
-        contact=openapi.Contact(email="contact@example.com"),
+        description="Documentation for your REST API using Swagger",
+        terms_of_service="https://github.com/Capijos/ticket-sales-backend/tree/main",
+        contact=openapi.Contact(email="jose.tito.acrota@gmail.com"),
         license=openapi.License(name="BSD License"),
     ),
     public=True,
     permission_classes=(permissions.AllowAny,),
 )
+
 router = routers.DefaultRouter()
 router.register(r"users", views.UserViewSet)
 router.register(r"products", views.ProductViewSet)
