@@ -136,6 +136,8 @@ Here are some key API endpoints provided by this Django API:
 - **Order Management**: Manage customer orders with details of ordered items and total prices.
 ## View
 ![ERD](apirest.png)
+## Documentation
+![ERD](apirestdocumentation.png)
 ## Usage
 
 Interact with the API using tools like `curl` or Postman. Example requests:
